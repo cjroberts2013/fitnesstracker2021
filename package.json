@@ -1,0 +1,14 @@
+{
+  "name": "fitnesstracker",
+  "version": "1.0.0",
+  "description": "What is CodeIgniter ###################",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build tailwind/style.css -o assets/style.css",
+    "start": "live-server",
+    "build:css": "npx tailwindcss-cli@latest build ./assets/tailwind/custom.css -o ./assets/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
